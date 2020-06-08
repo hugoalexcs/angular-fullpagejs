@@ -1,0 +1,25 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  mat-drawer {
+    width: 350px;
+    background-color: #d6dcce !important
+    //background-color: #c5c5c5 !important;
+    
+  }
+  
+  mat-drawer-container {
+    height: 100%;
+    overflow: hidden !important;
+  }
+  
+  mat-drawer-content {
+    padding: 20px;
+    //background-color: #e8f3eb;
+  }
+
+  .menu-overflow-hidden {
+    overflow: hidden !important;
+  }
